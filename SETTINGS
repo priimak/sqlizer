@@ -1,0 +1,11 @@
+# path to antrl parser generator
+export ANTLR=/networking/share/antlr/bin/antlr
+
+# path to antlr.jar library
+export ANTLR_JAR=/networking/share/antlr/lib/antlr.jar
+
+# Java things
+export JAVA=/opt/jdk1.6.0/bin/java
+export JAVAC=/opt/jdk1.6.0/bin/javac
+export JAR=/opt/jdk1.6.0/bin/jar
+export JAVADOC=/opt/jdk1.6.0/bin/javadoc

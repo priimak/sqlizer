@@ -1,0 +1,14 @@
+
+To install SQLizer you will need to aquire ANTLR version 2 only.
+
+Edit SETTINGS file to reflect location of ANTLR library (ANTRL_JAR) and
+parser generator script (ANTLR). You will also need to set variables pointing
+to your instance of java.
+
+To compile run 'make world' and copy generated library field2sql_parser.jar
+to desired location.
+
+'make test' will run regression tests, which can be found and the end of
+src/Field2SQL.java file.
+
+'make javadoc' will generated javadoc documentation in javadoc/ directory.
